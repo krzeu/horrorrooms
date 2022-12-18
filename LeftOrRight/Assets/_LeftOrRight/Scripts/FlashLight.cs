@@ -27,4 +27,5 @@ public class FlashLight : MonoBehaviour
         lens.DisableKeyword("_Emission");
         _light.enabled = false;
     }
+    // denna kod är för ficklampan, plcokar jag upp lampan så sättts ljuset på och droppar jag den så stängs den av
 }

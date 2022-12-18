@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Collidesounds : MonoBehaviour
 {
-    // Define the audio source and trigger collider as public variables
+    // definerar vilken audio som ska spelas vid collison
     public AudioSource audioSource;
     public BoxCollider triggerCollider;
 
-    // Use the OnTriggerEnter method to detect when the player enters the trigger collider
+    // ontrigger för att se när spelaren nuddar collidern
     private void OnTriggerEnter(Collider other)
     {
-        // Play the sound
+        // spelar musiken
         audioSource.Play();
     }
 }
